@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex" />
+    <title>SNS 업로드 스튜디오 개인정보처리방침</title>
+    <style>
+      :root { --ink: #14233c; --muted: #5d6b80; --line: #d6dee9; --bg: #f5f7fb; --panel: #fff; --accent: #1f4e8c; }
+      @media (prefers-color-scheme: dark) { :root { --ink: #e4eaf4; --muted: #9aa8bd; --line: #2c3a51; --bg: #0f1829; --panel: #162236; --accent: #6ea2e6; } }
+      body { margin: 0; background: var(--bg); color: var(--ink); font: 15px/1.7 -apple-system, 'Apple SD Gothic Neo', 'Malgun Gothic', 'Noto Sans KR', sans-serif; }
+      main { max-width: 760px; margin: 0 auto; padding: 40px 20px 64px; }
+      article { background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 28px 28px 20px; }
+      h1 { font-size: 22px; margin: 0 0 4px; }
+      h2 { font-size: 16px; margin: 24px 0 6px; }
+      p, li { max-width: 70ch; }
+      ul { padding-left: 20px; }
+      .muted { color: var(--muted); font-size: 13px; }
+      hr { border: 0; border-top: 1px solid var(--line); margin: 32px 0 8px; }
+      a { color: var(--accent); }
+    </style>
+  </head>
+  <body>
+    <main>
+      <article lang="ko">
+        <h1>SNS 업로드 스튜디오 개인정보처리방침</h1>
+        <p class="muted">시행일 2026년 10월 16일</p>
+
+        <h2>1. 서비스 개요</h2>
+        <p>
+          SNS 업로드 스튜디오(이하 ‘스튜디오’)는 운영팀이 관리 권한을 가진 페이스북 페이지와 연결된 인스타그램 프로페셔널 계정에 콘텐츠를 게시하기 위한 내부 업무용
+          브라우저 도구입니다. 일반 이용자를 대상으로 회원가입이나 로그인을 받지 않습니다.
+        </p>
+
+        <h2>2. 처리하는 정보와 저장 위치</h2>
+        <ul>
+          <li>스튜디오에는 별도 서버가 없습니다. 접근 토큰, 업로드할 파일, 게시글, 채널 설정, 게시 이력은 사용하는 PC의 브라우저 저장소(IndexedDB)에만 저장되며 운영자나 제3자의 서버로 수집되지 않습니다.</li>
+          <li>게시를 실행하면 해당 콘텐츠(이미지·영상·게시글)와 접근 토큰이 Meta Platforms의 Graph API로 직접 전송됩니다.</li>
+          <li>소개글 추천·번역 기능을 쓰면 담당자가 입력한 자료와 게시글 초안이 Anthropic의 Claude API로 전송됩니다.</li>
+          <li>스튜디오는 페이지 팔로워나 다른 이용자의 개인정보를 수집·저장하지 않습니다. ‘최근 게시물’ 화면은 운영 채널 자체의 게시물만 불러와 보여 주며 저장하지 않습니다.</li>
+        </ul>
+
+        <h2>3. 이용 목적</h2>
+        <p>위 정보는 운영 채널에 콘텐츠를 게시하고, 게시 결과와 이력을 담당자가 확인하는 목적으로만 쓰입니다.</p>
+
+        <h2 id="delete">4. 데이터 삭제 방법</h2>
+        <ul>
+          <li>스튜디오의 ‘전체 리셋’은 진행 중인 작업 데이터를, ‘채널 설정 › 설정 초기화’는 토큰과 채널 설정을, ‘게시 이력 › 이력 비우기’는 게시 이력을 지웁니다.</li>
+          <li>브라우저의 ‘쿠키 및 사이트 데이터 삭제’로 스튜디오가 저장한 모든 데이터를 한 번에 지울 수 있습니다.</li>
+          <li>Meta 계정과 스튜디오 앱의 연결을 끊으려면 Facebook 설정 › 비즈니스 통합(또는 앱 및 웹사이트)에서 ‘SNS Upload Studio’를 삭제하세요. 이 앱은 Meta로부터 받은 데이터를 별도 서버에 보관하지 않으므로 연결 해제 후 추가로 삭제할 데이터가 없습니다.</li>
+        </ul>
+
+        <h2>5. 제3자 제공</h2>
+        <p>스튜디오는 정보를 판매하거나 위 2항에 적은 전송(Meta Graph API, Claude API) 외에 제3자에게 제공하지 않습니다.</p>
+
+        <h2>6. 문의</h2>
+        <p>이 방침에 관한 문의는 스튜디오를 운영하는 팀의 관리자에게 해 주세요.</p>
+
+        <hr />
+      </article>
+
+      <article lang="en" style="margin-top: 16px">
+        <h1>SNS Upload Studio Privacy Policy</h1>
+        <p class="muted">Effective October 16, 2026</p>
+        <p>
+          SNS Upload Studio is an internal, browser-only tool that a content team uses to publish posts to Facebook Pages it manages and to the Instagram professional
+          accounts linked to those Pages. It has no server. Access tokens, files, captions, settings and posting history are stored only in the browser storage
+          (IndexedDB) of the computer where it is used. When the team publishes, the content and access token are sent directly to the Meta Graph API; when the caption
+          assistant is used, the source text is sent to the Anthropic Claude API. The tool does not collect or store personal data of followers or other users.
+        </p>
+        <p id="delete-en">
+          Data deletion: use “Reset”, “Settings › Reset settings” and “History › Clear history” in the tool, or clear the site data in the browser. To disconnect the app
+          from a Meta account, remove “SNS Upload Studio” under Facebook Settings › Business Integrations (Apps and Websites). Because the app keeps no server-side
+          data, nothing else needs to be deleted.
+        </p>
+      </article>
+    </main>
+  </body>
+</html>
