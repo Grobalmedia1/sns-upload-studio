@@ -24,7 +24,7 @@
     <main>
       <article lang="ko">
         <h1>SNS 업로드 스튜디오 개인정보처리방침</h1>
-        <p class="muted">시행일 2026년 10월 16일 (암호화 보관 내용 추가)</p>
+        <p class="muted">시행일 2026년 10월 16일</p>
 
         <h2>1. 서비스 개요</h2>
         <p>
@@ -35,7 +35,6 @@
         <h2>2. 처리하는 정보와 저장 위치</h2>
         <ul>
           <li>스튜디오에는 별도 서버가 없습니다. 접근 토큰, 업로드할 파일, 게시글, 채널 설정, 게시 이력은 사용하는 PC의 브라우저 저장소(IndexedDB)에만 저장되며 운영자나 제3자의 서버로 수집되지 않습니다.</li>
-          <li>접근 토큰·API 키·채널 설정·게시글·게시 이력은 팀 비밀번호로 만든 키로 암호화(AES-256-GCM, PBKDF2)해 저장하며, 비밀번호를 입력해야 스튜디오를 열 수 있습니다. 비밀번호 자체는 저장하지 않습니다.</li>
           <li>게시를 실행하면 해당 콘텐츠(이미지·영상·게시글)와 접근 토큰이 Meta Platforms의 Graph API로 직접 전송됩니다.</li>
           <li>소개글 추천·번역 기능을 쓰면 담당자가 입력한 자료와 게시글 초안이 Anthropic의 Claude API로 전송됩니다.</li>
           <li>스튜디오는 페이지 팔로워나 다른 이용자의 개인정보를 수집·저장하지 않습니다. ‘최근 게시물’ 화면은 운영 채널 자체의 게시물만 불러와 보여 주며 저장하지 않습니다.</li>
@@ -66,7 +65,7 @@
         <p>
           SNS Upload Studio is an internal, browser-only tool that a content team uses to publish posts to Facebook Pages it manages and to the Instagram professional
           accounts linked to those Pages. It has no server. Access tokens, files, captions, settings and posting history are stored only in the browser storage
-          (IndexedDB) of the computer where it is used; tokens, keys, settings, captions and history are encrypted with a key derived from a team password (AES-256-GCM, PBKDF2), which is required to open the tool and is never stored. When the team publishes, the content and access token are sent directly to the Meta Graph API; when the caption
+          (IndexedDB) of the computer where it is used. When the team publishes, the content and access token are sent directly to the Meta Graph API; when the caption
           assistant is used, the source text is sent to the Anthropic Claude API. The tool does not collect or store personal data of followers or other users.
         </p>
         <p id="delete-en">
